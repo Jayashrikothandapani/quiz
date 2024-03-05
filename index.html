@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1>Interactive Quiz</h1>
+        <div class="question">
+            <div id="question1">
+                <h3>1. What is the capital of France?</h3>
+                <label><input type="radio" name="question1" value="A" id="correct1"/><span>Paris</span></label>
+                <label><input type="radio" name="question1" value="B" /><span>London</span></label>
+                <label><input type="radio" name="question1" value="C" /><span>Berlin</span></label>
+            </div>
+            <div id="question2">
+                <h3>2. Whicxh planet is known as the Red Planet?</h3>
+                <label><input type="radio" name="question2" value="A" id="correct2"/><span>Mars</span></label>
+                <label><input type="radio" name="question2" value="B" /><span>Venus</span></label>
+                <label><input type="radio" name="question2" value="C" /><span>Jupiter</span></label>
+            </div>
+            <div id="question3">
+                <h3>3. What is the largest mammel on earth?</h3>
+                <label><input type="radio" name="question3" value="A" /><span>Elephant</span></label>
+                <label><input type="radio" name="question3" value="B" id="correct3"/><span>Blue Whale</span></label>
+                <label><input type="radio" name="question3" value="C" /><span>Giraffe</span></label>
+            </div>
+            <button class="view-results" onclick="result()">View Results</button>
+        </div>
+
+
+
+        <div class="score">
+            <h1>Interactive Quiz</h1>
+            <h2>Your Quiz Result</h2>
+            <p id="ans"></p>
+        </div>
+        <script src="script.js"></script>
+
+</body>
+
+</html>
